@@ -6,7 +6,7 @@
 [ruby][ruby]
 [perl][perl]
 [nginx][nginx]
-[openresty][openresty](openresty集成了一个nginx，使用参见[环境搭建](#openresty-install))
+[openresty][openresty](openresty集成了一个nginx)
 [Jemplate][jemplate]
 
 
@@ -19,7 +19,7 @@
 $ \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-### 安装openresty[具体参看openresty安装文档][openresty-installation]<span id="openresty-install"></span>
+### 安装openresty[具体参看openresty安装文档][openresty-installation]
 
 基本步骤:
 
