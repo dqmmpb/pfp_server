@@ -118,8 +118,8 @@ $ jemplate --compile public/component/* > public/js/component.js
 ## 启动命令
 $ ./start.rb start
 ```
-启动nginx服务器（nginx.conf中的端口为80880）。使用浏览器访问http://localhost:8080查看页面效果
-
+启动nginx服务器（nginx.conf中的端口为8080）。使用浏览器访问http://localhost:8080查看页面效果
+![jemplate-browser][jemplate-browser]
 
 [rvm]: https://get.rvm.io
 [ruby]: http://ruby-china.org
@@ -133,3 +133,4 @@ $ ./start.rb start
 [nginx.conf]: conf/nginx.conf
 [start.rb]: start.rb
 [jemplate]: http://www.jemplate.net
+[jemplate-browser]: http://ok2471oek.bkt.clouddn.com/dqmmpb/blog/2017-01-20/jemplate-browser.png
