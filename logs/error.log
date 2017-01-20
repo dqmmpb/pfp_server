@@ -1,0 +1,111 @@
+2017/01/20 14:26:43 [notice] 10026#0: using the "kqueue" event method
+2017/01/20 14:26:43 [notice] 10026#0: openresty/1.11.2.2
+2017/01/20 14:26:43 [notice] 10026#0: built by clang 8.0.0 (clang-800.0.42.1)
+2017/01/20 14:26:43 [notice] 10026#0: OS: Darwin 15.6.0
+2017/01/20 14:26:43 [notice] 10026#0: hw.ncpu: 8
+2017/01/20 14:26:43 [notice] 10026#0: net.inet.tcp.sendspace: 131072
+2017/01/20 14:26:43 [notice] 10026#0: kern.ipc.somaxconn: 128
+2017/01/20 14:26:43 [notice] 10026#0: getrlimit(RLIMIT_NOFILE): 7168:9223372036854775807
+2017/01/20 14:26:43 [notice] 10027#0: start worker processes
+2017/01/20 14:26:43 [notice] 10027#0: start worker process 10029
+2017/01/20 14:27:01 [error] 10029#0: *1 directory index of "./public/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:8899"
+2017/01/20 14:27:01 [error] 10029#0: *1 open() "./public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/"
+2017/01/20 14:27:21 [info] 10029#0: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:27:21 [error] 10029#0: *1 open() "./public/tpl/js/jquery.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/jquery.js HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:27:21 [error] 10029#0: *3 open() "./public/tpl/js/Jemplate.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/Jemplate.js HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:27:21 [error] 10029#0: *4 open() "./public/tpl/js/component.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/component.js HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:27:23 [error] 10029#0: *4 open() "./public/tpl/js/jquery.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/jquery.js HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:27:23 [error] 10029#0: *3 open() "./public/tpl/js/Jemplate.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/Jemplate.js HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:27:23 [error] 10029#0: *1 open() "./public/tpl/js/component.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/component.js HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:27:32 [info] 10029#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:27:34 [error] 10029#0: *1 open() "./public/tpl/js/jquery.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/js/jquery.js HTTP/1.1", host: "localhost:8899"
+2017/01/20 14:27:56 [error] 10029#0: *1 open() "./public/js/jquery.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /js/jquery.js HTTP/1.1", host: "localhost:8899"
+2017/01/20 14:27:58 [error] 10029#0: *1 open() "./public/js/jquery.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /js/jquery.js HTTP/1.1", host: "localhost:8899"
+2017/01/20 14:29:39 [info] 10029#0: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:29:39 [info] 10029#0: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:30:45 [info] 10029#0: *8 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:30:45 [info] 10029#0: *9 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:32:57 [error] 10029#0: *11 open() "./public/tpl/url/data.json" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/url/data.json HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:32:59 [error] 10029#0: *11 open() "./public/tpl/url/data.json" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /tpl/url/data.json HTTP/1.1", host: "localhost:8899", referrer: "http://localhost:8899/tpl/index.html"
+2017/01/20 14:34:09 [info] 10029#0: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:34:09 [info] 10029#0: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:34:09 [info] 10029#0: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:34:09 [info] 10029#0: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:35:04 [info] 10029#0: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:35:04 [info] 10029#0: *18 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:35:04 [info] 10029#0: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:39:04 [info] 10029#0: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:39:04 [info] 10029#0: *21 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:39:04 [info] 10029#0: *22 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:39:04 [info] 10029#0: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:48:48 [info] 10029#0: *25 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:48:48 [info] 10029#0: *26 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:48:48 [info] 10029#0: *27 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 14:48:48 [info] 10029#0: *28 client timed out (60: Operation timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8899
+2017/01/20 16:18:30 [notice] 42032#0: using the "kqueue" event method
+2017/01/20 16:18:30 [notice] 42032#0: openresty/1.11.2.1
+2017/01/20 16:18:30 [notice] 42032#0: built by clang 8.0.0 (clang-800.0.42.1)
+2017/01/20 16:18:30 [notice] 42032#0: OS: Darwin 16.3.0
+2017/01/20 16:18:30 [notice] 42032#0: hw.ncpu: 4
+2017/01/20 16:18:30 [notice] 42032#0: net.inet.tcp.sendspace: 131072
+2017/01/20 16:18:30 [notice] 42032#0: kern.ipc.somaxconn: 128
+2017/01/20 16:18:30 [notice] 42032#0: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2017/01/20 16:18:30 [notice] 42033#0: start worker processes
+2017/01/20 16:18:30 [notice] 42033#0: start worker process 42034
+2017/01/20 16:18:56 [error] 42034#0: *1 directory index of "/Users/dengqiming/Web/pfp_server/public/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:6699"
+2017/01/20 16:18:56 [info] 42034#0: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/01/20 16:19:12 [error] 42034#0: *2 directory index of "/Users/dengqiming/Web/pfp_server/public/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "localhost:6699"
+2017/01/20 16:19:13 [error] 42034#0: *2 open() "/Users/dengqiming/Web/pfp_server/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "localhost:6699", referrer: "http://localhost:6699/"
+2017/01/20 16:19:17 [error] 42034#0: *2 open() "/Users/dengqiming/Web/pfp_server/public/home.html" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /home.html HTTP/1.1", host: "localhost:6699"
+2017/01/20 16:19:26 [info] 42034#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:19:38 [info] 42034#0: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:19:38 [info] 42034#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:19:40 [error] 42034#0: *6 open() "/Users/dengqiming/Web/pfp_server/public/home.html" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /home.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/20 16:19:41 [error] 42034#0: *6 open() "/Users/dengqiming/Web/pfp_server/public/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:6699", referrer: "http://127.0.0.1:6699/home.html"
+2017/01/20 16:19:56 [info] 42034#0: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:20:43 [error] 42034#0: *6 directory index of "/Users/dengqiming/Web/pfp_server/public/" is forbidden, client: 127.0.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/20 16:20:49 [error] 42034#0: *6 open() "/Users/dengqiming/Web/pfp_server/public/home.html" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /home.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/20 16:20:56 [info] 42034#0: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:20:56 [info] 42034#0: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:20:56 [info] 42034#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:21:52 [error] 42034#0: *6 open() "/Users/dengqiming/Web/pfp_server/public/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /index.html HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/20 16:22:22 [info] 42034#0: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:22:22 [info] 42034#0: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:6699
+2017/01/20 16:22:22 [error] 42034#0: *6 open() "/Users/dengqiming/Web/pfp_server/public/index" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /index HTTP/1.1", host: "127.0.0.1:6699"
+2017/01/20 16:27:29 [notice] 42033#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/20 16:27:29 [notice] 42033#0: signal 23 (SIGIO) received
+2017/01/20 16:27:29 [notice] 42034#0: gracefully shutting down
+2017/01/20 16:27:29 [notice] 42034#0: exiting
+2017/01/20 16:27:29 [notice] 42034#0: exit
+2017/01/20 16:27:29 [notice] 42033#0: signal 20 (SIGCHLD) received
+2017/01/20 16:27:29 [notice] 42033#0: worker process 42034 exited with code 0
+2017/01/20 16:27:29 [notice] 42033#0: exit
+2017/01/20 16:56:29 [notice] 42790#0: using the "kqueue" event method
+2017/01/20 16:56:29 [notice] 42790#0: openresty/1.11.2.1
+2017/01/20 16:56:29 [notice] 42790#0: built by clang 8.0.0 (clang-800.0.42.1)
+2017/01/20 16:56:29 [notice] 42790#0: OS: Darwin 16.3.0
+2017/01/20 16:56:29 [notice] 42790#0: hw.ncpu: 4
+2017/01/20 16:56:29 [notice] 42790#0: net.inet.tcp.sendspace: 131072
+2017/01/20 16:56:29 [notice] 42790#0: kern.ipc.somaxconn: 128
+2017/01/20 16:56:29 [notice] 42790#0: getrlimit(RLIMIT_NOFILE): 4864:9223372036854775807
+2017/01/20 16:56:29 [notice] 42791#0: start worker processes
+2017/01/20 16:56:29 [notice] 42791#0: start worker process 42792
+2017/01/20 17:36:56 [error] 42792#0: *4 open() "./public/js/component.js" failed (2: No such file or directory), client: 127.0.0.1, server: 127.0.0.1, request: "GET /js/component.js HTTP/1.1", host: "127.0.0.1:6699", referrer: "http://127.0.0.1:6699/"
+2017/01/20 18:56:34 [notice] 42791#0: signal 3 (SIGQUIT) received, shutting down
+2017/01/20 18:56:34 [notice] 42791#0: signal 23 (SIGIO) received
+2017/01/20 18:56:34 [notice] 42792#0: gracefully shutting down
+2017/01/20 18:56:34 [notice] 42792#0: exiting
+2017/01/20 18:56:34 [notice] 42792#0: exit
+2017/01/20 18:56:34 [notice] 42791#0: signal 20 (SIGCHLD) received
+2017/01/20 18:56:34 [notice] 42791#0: worker process 42792 exited with code 0
+2017/01/20 18:56:34 [notice] 42791#0: exit
+2017/01/20 19:00:26 [notice] 45130#0: using the "kqueue" event method
+2017/01/20 19:00:26 [notice] 45130#0: openresty/1.11.2.1
+2017/01/20 19:00:26 [notice] 45130#0: built by clang 8.0.0 (clang-800.0.42.1)
+2017/01/20 19:00:26 [notice] 45130#0: OS: Darwin 16.3.0
+2017/01/20 19:00:26 [notice] 45130#0: hw.ncpu: 4
+2017/01/20 19:00:26 [notice] 45130#0: net.inet.tcp.sendspace: 131072
+2017/01/20 19:00:26 [notice] 45130#0: kern.ipc.somaxconn: 128
+2017/01/20 19:00:26 [notice] 45130#0: getrlimit(RLIMIT_NOFILE): 10240:9223372036854775807
+2017/01/20 19:00:26 [notice] 45131#0: start worker processes
+2017/01/20 19:00:26 [notice] 45131#0: start worker process 45133

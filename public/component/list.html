@@ -1,0 +1,16 @@
+[% INCLUDE header.html %]
+
+<ul data-id="list_[% name %]" class="list-ul list-ul-text list-ul-text-1 margin-bottom-m margin-top-m">
+
+    [% FOREACH data IN datas %]
+
+    <li class="row">
+        <p class="col-4 bold pr0">[% data.key %]</p>
+        <p class="col-8 pl0 pr0">[% data.component %]</p>
+    </li>
+
+    [% END %]
+
+</ul>
+
+[% INCLUDE footer.html %]

@@ -1,0 +1,5 @@
+*_temp
+.idea
+.DS_Store
+logs
+server
